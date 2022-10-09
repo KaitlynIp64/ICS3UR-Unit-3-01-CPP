@@ -12,16 +12,16 @@ int main() {
     // this function calculates area and perimeter of equilateral triangle
     int numberOne;
     int numberTwo;
-    double sum;
+    double sumOfNumbers;
     // input
     std::cout << "Enter the first number: ";
     std::cin >> numberOne;
     std::cout << "Enter the second number: ";
     std::cin >> numberTwo;
     // process
-    sum = numberOne + numberTwo;
+    sumOfNumbers = numberOne + numberTwo;
     // output
     std::cout << "" << std::endl;
-    std::cout << "The sum is " << sum << "." << std::endl;
+    std::cout << numberOne + numberTwo = sumOfNumbers << "." << std::endl;
     std::cout << "\nDone." << std::endl;
 }

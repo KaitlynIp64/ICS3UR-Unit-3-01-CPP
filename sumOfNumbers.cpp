@@ -5,23 +5,25 @@
 // This program calculates the area of perimeter of an equilateral triangle
 //    with side inputted from the user
 
-#include <cmath>
+#include <iomanip>
 #include <iostream>
 
 int main() {
-    // this function calculates area and perimeter of equilateral triangle
-    int numberOne;
-    int numberTwo;
-    double sumOfNumbers;
+    // this function calculates the sum of two numbers
+    float num1;
+    float num2;
+    float sumOfNum;
+
     // input
     std::cout << "Enter the first number: ";
-    std::cin >> numberOne;
+    std::cin >> num1;
     std::cout << "Enter the second number: ";
-    std::cin >> numberTwo;
+    std::cin >> num2;
+
     // process
-    sumOfNumbers = numberOne + numberTwo;
+    sumOfNum = num1 + num2;
+
     // output
     std::cout << "" << std::endl;
-    std::cout << numberOne + numberTwo = sumOfNumbers << "." << std::endl;
-    std::cout << "\nDone." << std::endl;
+    std::cout << num1 << "+" << num2 << "=" << sumOfNum << std::endl;
 }
